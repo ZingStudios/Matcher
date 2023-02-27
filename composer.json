@@ -1,5 +1,5 @@
 {
-    "name": "zing/matcher",
+    "name": "zing-studios/matcher",
     "description": "levenshtein example",
     "type": "library",
     "require": {
