@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  php:
+    container_name: php
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: cron -f
+    volumes:
+      - .:/var/www
